@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8ED6C0DE1B79B9980037A387 /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED6C0DD1B79B9980037A387 /* SessionViewController.swift */; };
+		8ED6C0E91B79F32D0037A387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED6C0E71B79F32D0037A387 /* Main.storyboard */; };
 		8EF021901B73D299003BF19C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0218F1B73D299003BF19C /* AppDelegate.swift */; };
-		8EF021921B73D299003BF19C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF021911B73D299003BF19C /* ViewController.swift */; };
-		8EF021951B73D299003BF19C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF021931B73D299003BF19C /* Main.storyboard */; };
 		8EF021971B73D299003BF19C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF021961B73D299003BF19C /* Images.xcassets */; };
 		8EF0219A1B73D299003BF19C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EF021981B73D299003BF19C /* LaunchScreen.xib */; };
 		8EF021A61B73D299003BF19C /* Haven_FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF021A51B73D299003BF19C /* Haven_FinalTests.swift */; };
+		8EF021E21B7986A9003BF19C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF021E11B7986A9003BF19C /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8ED6C0DD1B79B9980037A387 /* SessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionViewController.swift; sourceTree = "<group>"; };
+		8ED6C0E81B79F32D0037A387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EF0218A1B73D299003BF19C /* Haven Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Haven Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF0218E1B73D299003BF19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EF0218F1B73D299003BF19C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8EF021911B73D299003BF19C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8EF021941B73D299003BF19C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EF021961B73D299003BF19C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8EF021991B73D299003BF19C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8EF0219F1B73D299003BF19C /* Haven FinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Haven FinalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF021A41B73D299003BF19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EF021A51B73D299003BF19C /* Haven_FinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haven_FinalTests.swift; sourceTree = "<group>"; };
+		8EF021E11B7986A9003BF19C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				8EF0218F1B73D299003BF19C /* AppDelegate.swift */,
-				8EF021911B73D299003BF19C /* ViewController.swift */,
-				8EF021931B73D299003BF19C /* Main.storyboard */,
+				8ED6C0E71B79F32D0037A387 /* Main.storyboard */,
+				8EF021E11B7986A9003BF19C /* HomeViewController.swift */,
+				8ED6C0DD1B79B9980037A387 /* SessionViewController.swift */,
 				8EF021961B73D299003BF19C /* Images.xcassets */,
 				8EF021981B73D299003BF19C /* LaunchScreen.xib */,
 				8EF0218D1B73D299003BF19C /* Supporting Files */,
@@ -192,7 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EF021951B73D299003BF19C /* Main.storyboard in Resources */,
+				8ED6C0E91B79F32D0037A387 /* Main.storyboard in Resources */,
 				8EF0219A1B73D299003BF19C /* LaunchScreen.xib in Resources */,
 				8EF021971B73D299003BF19C /* Images.xcassets in Resources */,
 			);
@@ -212,7 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EF021921B73D299003BF19C /* ViewController.swift in Sources */,
+				8ED6C0DE1B79B9980037A387 /* SessionViewController.swift in Sources */,
+				8EF021E21B7986A9003BF19C /* HomeViewController.swift in Sources */,
 				8EF021901B73D299003BF19C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,10 +240,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8EF021931B73D299003BF19C /* Main.storyboard */ = {
+		8ED6C0E71B79F32D0037A387 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8EF021941B73D299003BF19C /* Base */,
+				8ED6C0E81B79F32D0037A387 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -342,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Haven Final/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Haven Final/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +417,7 @@
 				8EF021AB1B73D299003BF19C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EF021AC1B73D299003BF19C /* Build configuration list for PBXNativeTarget "Haven FinalTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +426,7 @@
 				8EF021AE1B73D299003BF19C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

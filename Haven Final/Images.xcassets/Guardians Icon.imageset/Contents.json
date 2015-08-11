@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x",
+      "filename" : "Shape-Copy-+-Oval-21-+-Oval-20-+-Oval-21-+-Oval-20-Copy-+-Oval-20-1.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "filename" : "Guardians Icon@2x.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "filename" : "Shape-Copy-+-Oval-21-+-Oval-20-+-Oval-21-+-Oval-20-Copy-+-Oval-20.png"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
