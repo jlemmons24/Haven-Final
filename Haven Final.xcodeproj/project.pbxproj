@@ -7,8 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EB64A0C1B7A55C3000FCB94 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB64A0B1B7A55C3000FCB94 /* DataViewController.swift */; };
+		8ECBC2FA1B7E3BA600EC61E8 /* LookoutLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECBC2F91B7E3BA600EC61E8 /* LookoutLocation.swift */; };
+		8ECBC2FC1B7E42E800EC61E8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECBC2FB1B7E42E800EC61E8 /* MapKit.framework */; };
 		8ED6C0DE1B79B9980037A387 /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED6C0DD1B79B9980037A387 /* SessionViewController.swift */; };
 		8ED6C0E91B79F32D0037A387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ED6C0E71B79F32D0037A387 /* Main.storyboard */; };
+		8ED89C661B7D3019007782AE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED89C001B7CA177007782AE /* AudioToolbox.framework */; };
+		8ED89C671B7D301F007782AE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED89C021B7CA195007782AE /* CFNetwork.framework */; };
+		8ED89C681B7D3024007782AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED89C041B7CA1B4007782AE /* CoreGraphics.framework */; };
+		8ED89C691B7D302C007782AE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED89C5A1B7D2F32007782AE /* CoreLocation.framework */; };
+		8ED89C6A1B7D3031007782AE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED89C061B7CA1BE007782AE /* QuartzCore.framework */; };
+		8ED89C6B1B7D303C007782AE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED89C081B7CA1C8007782AE /* Security.framework */; };
+		8ED89C6D1B7D304C007782AE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED89C0C1B7CA1DB007782AE /* SystemConfiguration.framework */; };
+		8ED89C6E1B7D3054007782AE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED89C0E1B7CA1F0007782AE /* libz.dylib */; };
+		8ED89C6F1B7D3059007782AE /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED89C191B7CEAA0007782AE /* libsqlite3.dylib */; };
+		8ED89C751B7D3150007782AE /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED89C741B7D3150007782AE /* ParseUI.framework */; };
 		8EF021901B73D299003BF19C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0218F1B73D299003BF19C /* AppDelegate.swift */; };
 		8EF021971B73D299003BF19C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF021961B73D299003BF19C /* Images.xcassets */; };
 		8EF0219A1B73D299003BF19C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EF021981B73D299003BF19C /* LaunchScreen.xib */; };
@@ -27,8 +40,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8EB64A0B1B7A55C3000FCB94 /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		8ECBC2F91B7E3BA600EC61E8 /* LookoutLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LookoutLocation.swift; sourceTree = "<group>"; };
+		8ECBC2FB1B7E42E800EC61E8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		8ED6C0DD1B79B9980037A387 /* SessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionViewController.swift; sourceTree = "<group>"; };
 		8ED6C0E81B79F32D0037A387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8ED89C001B7CA177007782AE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8ED89C021B7CA195007782AE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8ED89C041B7CA1B4007782AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8ED89C061B7CA1BE007782AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8ED89C081B7CA1C8007782AE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8ED89C0C1B7CA1DB007782AE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8ED89C0E1B7CA1F0007782AE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8ED89C171B7CA4AF007782AE /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		8ED89C191B7CEAA0007782AE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		8ED89C1E1B7D1761007782AE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8ED89C201B7D1774007782AE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8ED89C561B7D2C6C007782AE /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		8ED89C571B7D2C6C007782AE /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		8ED89C5A1B7D2F32007782AE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8ED89C721B7D314C007782AE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../Downloads/parse-library-1.8.0 2/Parse.framework"; sourceTree = "<group>"; };
+		8ED89C741B7D3150007782AE /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "../../../Downloads/parse-library-1.8.0 2/ParseUI.framework"; sourceTree = "<group>"; };
 		8EF0218A1B73D299003BF19C /* Haven Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Haven Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EF0218E1B73D299003BF19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EF0218F1B73D299003BF19C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +77,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ED89C751B7D3150007782AE /* ParseUI.framework in Frameworks */,
+				8ED89C6F1B7D3059007782AE /* libsqlite3.dylib in Frameworks */,
+				8ED89C6E1B7D3054007782AE /* libz.dylib in Frameworks */,
+				8ED89C6D1B7D304C007782AE /* SystemConfiguration.framework in Frameworks */,
+				8ECBC2FC1B7E42E800EC61E8 /* MapKit.framework in Frameworks */,
+				8ED89C6B1B7D303C007782AE /* Security.framework in Frameworks */,
+				8ED89C6A1B7D3031007782AE /* QuartzCore.framework in Frameworks */,
+				8ED89C691B7D302C007782AE /* CoreLocation.framework in Frameworks */,
+				8ED89C681B7D3024007782AE /* CoreGraphics.framework in Frameworks */,
+				8ED89C671B7D301F007782AE /* CFNetwork.framework in Frameworks */,
+				8ED89C661B7D3019007782AE /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +101,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8ED89BFF1B7CA11B007782AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ECBC2FB1B7E42E800EC61E8 /* MapKit.framework */,
+				8ED89C741B7D3150007782AE /* ParseUI.framework */,
+				8ED89C721B7D314C007782AE /* Parse.framework */,
+				8ED89C5A1B7D2F32007782AE /* CoreLocation.framework */,
+				8ED89C561B7D2C6C007782AE /* Accounts.framework */,
+				8ED89C571B7D2C6C007782AE /* Social.framework */,
+				8ED89C201B7D1774007782AE /* MobileCoreServices.framework */,
+				8ED89C1E1B7D1761007782AE /* AVFoundation.framework */,
+				8ED89C0E1B7CA1F0007782AE /* libz.dylib */,
+				8ED89C191B7CEAA0007782AE /* libsqlite3.dylib */,
+				8ED89C171B7CA4AF007782AE /* libsqlite3.0.dylib */,
+				8ED89C0C1B7CA1DB007782AE /* SystemConfiguration.framework */,
+				8ED89C081B7CA1C8007782AE /* Security.framework */,
+				8ED89C061B7CA1BE007782AE /* QuartzCore.framework */,
+				8ED89C041B7CA1B4007782AE /* CoreGraphics.framework */,
+				8ED89C021B7CA195007782AE /* CFNetwork.framework */,
+				8ED89C001B7CA177007782AE /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		8EF021811B73D299003BF19C = {
 			isa = PBXGroup;
 			children = (
@@ -83,8 +151,11 @@
 				8ED6C0E71B79F32D0037A387 /* Main.storyboard */,
 				8EF021E11B7986A9003BF19C /* HomeViewController.swift */,
 				8ED6C0DD1B79B9980037A387 /* SessionViewController.swift */,
+				8EB64A0B1B7A55C3000FCB94 /* DataViewController.swift */,
+				8ECBC2F91B7E3BA600EC61E8 /* LookoutLocation.swift */,
 				8EF021961B73D299003BF19C /* Images.xcassets */,
 				8EF021981B73D299003BF19C /* LaunchScreen.xib */,
+				8ED89BFF1B7CA11B007782AE /* Frameworks */,
 				8EF0218D1B73D299003BF19C /* Supporting Files */,
 			);
 			path = "Haven Final";
@@ -164,9 +235,19 @@
 				TargetAttributes = {
 					8EF021891B73D299003BF19C = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 25Y72JH26L;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					8EF0219E1B73D299003BF19C = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 25Y72JH26L;
 						TestTargetID = 8EF021891B73D299003BF19C;
 					};
 				};
@@ -215,9 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB64A0C1B7A55C3000FCB94 /* DataViewController.swift in Sources */,
 				8ED6C0DE1B79B9980037A387 /* SessionViewController.swift in Sources */,
 				8EF021E21B7986A9003BF19C /* HomeViewController.swift in Sources */,
 				8EF021901B73D299003BF19C /* AppDelegate.swift in Sources */,
+				8ECBC2FA1B7E3BA600EC61E8 /* LookoutLocation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +381,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "9d05ad48-3187-4917-8fbc-117a697f45ea";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -336,6 +420,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "9d05ad48-3187-4917-8fbc-117a697f45ea";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -347,9 +432,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/JLemmy/Downloads/parse-library-1.8.0",
+					2,
+				);
 				INFOPLIST_FILE = "Haven Final/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -358,9 +450,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/JLemmy/Downloads/parse-library-1.8.0",
+					2,
+				);
 				INFOPLIST_FILE = "Haven Final/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -368,9 +467,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"/Users/JLemmy/Downloads/parse-library-1.8.0",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -379,6 +481,7 @@
 				INFOPLIST_FILE = "Haven FinalTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haven Final.app/Haven Final";
 			};
 			name = Debug;
@@ -387,13 +490,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"/Users/JLemmy/Downloads/parse-library-1.8.0",
 				);
 				INFOPLIST_FILE = "Haven FinalTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haven Final.app/Haven Final";
 			};
 			name = Release;

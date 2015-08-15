@@ -7,6 +7,7 @@
 //
 
 import UIKit
+//import Parse
 
 class HomeViewController: UIViewController {
    
@@ -26,7 +27,6 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         doubleTapRec.numberOfTapsRequired == 2
         
      
@@ -39,7 +39,7 @@ class HomeViewController: UIViewController {
     
     @IBAction func startLookout(sender: UITapGestureRecognizer) {
         
-     
+        
         
 
     }

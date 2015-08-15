@@ -7,6 +7,8 @@
 //
 
 import UIKit
+//import Parse
+//import Bolts
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-
+        
+        //Initialize Parse
+     // Parse.setApplicationId("PYD82UokWCAo715zU6s8HAxX2YAxMR44O4cQhIhs", clientKey: "8KYzLmth1XzZB90V8sdB7WyvsJAsdIAj2FZdPII3")
+        
+        //Track Haven open stats
+    //   PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+        
         application.statusBarHidden = true
         return true
     }
